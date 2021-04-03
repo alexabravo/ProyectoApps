@@ -5,7 +5,7 @@
     android:id="@+id/estadisticas"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.estadisticas.EstadisticasFragment">
+    tools:context=".ui.fragments.EstadisticasFragment">
 
     <TextView
         android:id="@+id/message"

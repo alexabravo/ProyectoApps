@@ -5,7 +5,7 @@
     android:id="@+id/emergencias"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.emergencias.EmergenciasFragment">
+    tools:context=".ui.fragments.EmergenciasFragment">
 
     <TextView
         android:id="@+id/message"
