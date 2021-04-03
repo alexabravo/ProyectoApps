@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_noticias"
+        android:icon="@drawable/ic_noticia"
+        android:title="Noticias"/>
+
+    <item
+        android:id="@+id/nav_mapa"
+        android:icon="@drawable/ic_location"
+        android:title="Mapa"/>
+
+    <item
+        android:id="@+id/nav_estadisticas"
+        android:icon="@drawable/ic_estadisticas"
+        android:title="Estadisticas"/>
+
+    <item
+        android:id="@+id/nav_emergencias"
+        android:icon="@drawable/ic_emergencia"
+        android:title="Emergencias"/>
+
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_gp"
+    app:startDestination="@+id/nav_noticias">
+
+    <fragment
+        android:id="@+id/nav_noticias"
+        android:name="com.example.guatepreviene.ui.fragments.NoticiasFragment"
+        android:label="Noticias"
+        tools:layout="@layout/noticias_fragment" />
+
+    <fragment
+        android:id="@+id/nav_mapa"
+        android:name="com.example.guatepreviene.ui.fragments.MapaFragment"
+        android:label="Mapa"
+        tools:layout="@layout/mapa_fragment" />
+
+    <fragment
+        android:id="@+id/nav_estadisticas"
+        android:name="com.example.guatepreviene.ui.fragments.EstadisticasFragment"
+        android:label="Estadisticas"
+        tools:layout="@layout/estadisticas_fragment" />
+
+    <fragment
+        android:id="@+id/nav_emergencias"
+        android:name="com.example.guatepreviene.ui.fragments.EmergenciasFragment"
+        android:label="Emergencias"
+        tools:layout="@layout/emergencias_fragment" />
+
+</navigation>
