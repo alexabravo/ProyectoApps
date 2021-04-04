@@ -1,4 +1,8 @@
 package com.example.guatepreviene.ui.response
 
-class EmergenciasResponse {
-}
+import com.example.guatepreviene.ui.utils.EmerResponseVal
+
+data class EmergenciasResponse(
+        val `data`: List<EmerResponseVal>,
+        val whatsapp_phone: String
+)
