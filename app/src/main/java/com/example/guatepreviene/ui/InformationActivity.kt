@@ -18,11 +18,12 @@ class InformationActivity : AppCompatActivity() {
         var title: TextView = findViewById(R.id.NotiTitle)
         title.text = "${modalNews.titulo}"
 
+        var image: ImageView = findViewById(R.id.NotiView)
+        Picasso.get().load(modalNews.imagen).into(image)
+
         var detalle: TextView = findViewById(R.id.NotiDetail)
         detalle.text = "${modalNews.descripcion}"
 
-        var image: ImageView = findViewById(R.id.NotiView)
-        Picasso.get().load(modalNews.imagen).into(image)
     }
 }
 
