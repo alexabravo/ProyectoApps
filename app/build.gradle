@@ -87,5 +87,7 @@ dependencies {
     implementation 'com.github.blackfizz:eazegraph:1.2.5l@aar'
     implementation 'com.nineoldandroids:library:2.4.0'
 
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+
     implementation 'com.android.support:multidex:1.0.3'
 }
