@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="8dp"
-    android:clickable="true"
-    android:focusable="true"
-    android:foreground="?android:attr/selectableItemBackground">
+    android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/NotiView"
+        android:layout_width="139dp"
+        android:layout_height="109dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/NotiCategory"
+        android:layout_width="139dp"
+        android:layout_height="23dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="4dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@+id/NotiTitle"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NotiView"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/NotiTitle"
+        android:layout_width="208dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
         android:gravity="center_vertical"
-        android:orientation="horizontal">
+        android:maxLines="9"
+        android:textColor="#706565"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
-        <RelativeLayout
-            android:layout_width="124dp"
-            android:layout_height="124dp">
-
-            <ImageView
-                android:id="@+id/img_news"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/app_name"
-                android:scaleType="centerCrop" />
-
-            <TextView
-                android:id="@+id/txt_category"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:background="@color/black"
-                android:gravity="center"
-                android:maxLines="1"
-                android:padding="4dp"
-                android:textColor="@android:color/white" />
-        </RelativeLayout>
-        <TextView
-            android:id="@+id/txt_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:gravity="center_vertical"
-            android:maxLines="5"
-            android:textColor="@android:color/darker_gray"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-</androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
