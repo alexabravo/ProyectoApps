@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="estadisticas" type="id" />
+    <item name="txt_detail_confirmed" type="id" />
+    <item name="details" type="id" />
+    <item name="txt_number_confirmed" type="id" />
+    <item name="txt_detail_deaths" type="id" />
+    <item name="txt_number_deaths" type="id" />
+    <item name="txt_detail_recovered" type="id" />
+    <item name="txt_number_recovered" type="id" />
+    <item name="txt_country" type="id" />
+    <item name="ImageView" type="id" />
+</resources>

@@ -35,11 +35,11 @@
 
     <TextView
         android:id="@+id/EmerTitle"
-        android:layout_width="152dp"
-        android:layout_height="51dp"
+        android:layout_width="153dp"
+        android:layout_height="60dp"
         android:layout_marginStart="144dp"
         android:layout_marginLeft="144dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
         android:gravity="center"
@@ -48,7 +48,7 @@
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -56,9 +56,9 @@
     <ImageView
         android:id="@+id/img_call"
         android:layout_width="48dp"
-        android:layout_height="45dp"
+        android:layout_height="51dp"
         android:layout_gravity="center_vertical"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_weight="0.5"
