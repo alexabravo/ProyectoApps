@@ -88,9 +88,9 @@ class MapaFragment : Fragment(), OnMapReadyCallback {
         mapa.addMarker(MarkerOptions().position(punto22).title("Pulay, Ixil, Nebaj"))
 
         mapa.animateCamera(
-            CameraUpdateFactory.newLatLngZoom(punto1, 18f),
-            4000,
-            null
+                CameraUpdateFactory.newLatLngZoom(punto1, 18f),
+                4000,
+                null
         )
     }
 
